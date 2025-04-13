@@ -1,16 +1,32 @@
-## Hi there 👋
+# Website Pribadi dengan Flask
 
-<!--
-**CX-D3ath/CX-D3ath** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Ini adalah website pribadi sederhana menggunakan Flask. Website ini memiliki halaman:
+- Home
+- Portfolio
+- Contact
 
-Here are some ideas to get you started:
+## Menjalankan di Lokal
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Clone repository ini
+2. Install Flask:
+```
+pip install -r requirements.txt
+```
+
+3. Jalankan aplikasi:
+```
+python app.py
+```
+
+Akses di browser: `http://127.0.0.1:5000`
+
+## Deploy ke Render
+
+1. Buat akun di [https://render.com](https://render.com)
+2. Buat Web Service baru dan hubungkan ke repo ini
+3. Gunakan Start Command:
+```
+python app.py
+```
+
+Enjoy!
